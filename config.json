@@ -3,6 +3,7 @@
     "name": "Broadlink RM",
     "hideScanFrequencyButton": false,
     "hideLearnButton": false,
+    "hideWelcomeMessage": false,
     "accessories": [
         {
             "accessory": "Broadlink RM Learner",
@@ -15,19 +16,18 @@
             "type": "air-conditioner",
             "autoSwitch": "A/C Auto Switch",
             "ignoreTemperatureWhenOff": true,
-            "hideWelcomeMessage": false,
             "pseudoDeviceTemperature": 23,
             "noHumidity": true,
-            "minTemperature": 18,
+            "minTemperature": 10,
             "maxTemperature": 30,
             "replaceAutoMode": "cool",
-            "temperatureUpdateFrequency": 10,
+            "temperatureUpdateFrequency": 300,
             "turnOnWhenOff": true,
             "allowResend": true,
             "defaultCoolTemperature": 23,
             "defaultHeatTemperature": 24,
             "data": {
-                "off":"226004000650001441134101210130f130f34101210130f130f3411340f130f130f130f1210121012101210120f1310121012103410121034101210121012103410000d05000000000000",
+                "off": "226004000650001441134101210130f130f34101210130f130f3411340f130f130f130f1210121012101210120f1310121012103410121034101210121012103410000d05000000000000",
                 "cool18": {
                     "data": "2600440067000144103410130f121012103410121012101210120f130f130f130f34101210121012101310121034103410121012101210120f350f1210331233110001310b000d050000"
                 },
